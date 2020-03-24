@@ -6,7 +6,7 @@ while x > 0: #enquanto o valor digitado pelo usuario (x) for maior que zero...
     x = int(input("Digite um valor para a lista: ")) #o programa permanece solicitando mais dados para a lista
     if x > 0: # somente se o valor digitado (x) for maior que zero a lista recebera o dado, caso contrário sairá do while 
         lista.append (x)       
-lista.reverse() #quando sair do while os valores digitados serão ordenados ao inverso
+lista.reverse() #quando sair do while os valores digitados serão ordenados inversamente
 print(lista) #lista será impressa
 
 
