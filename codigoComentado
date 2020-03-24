@@ -1,0 +1,22 @@
+print ("Digite uma lista finalizada por zero(0)") #mensagem na tela com a instrução
+x = int(input("Digite um valor para a lista: ")) #usuário digita a primeira sequencia da lista
+lista = [] #lista não tem elementos
+lista.append (x) #lista recebe o valor digitado na variavel (x)
+while x > 0: #enquanto o valor digitado pelo usuario (x) for maior que zero... 
+    x = int(input("Digite um valor para a lista: ")) #o programa permanece solicitando mais dados para a lista
+    if x > 0: # somente se o valor digitado (x) for maior que zero a lista recebera o dado, caso contrário sairá do while 
+        lista.append (x)       
+lista.reverse() #quando sair do while os valores digitados serão ordenados ao inverso
+print(lista) #lista será impressa
+
+
+
+exemplo da impressão:
+Digite uma lista finalizada por zero(0)
+Digite um valor para a lista: 5
+Digite um valor para a lista: 4
+Digite um valor para a lista: 3
+Digite um valor para a lista: 2
+Digite um valor para a lista: 1
+Digite um valor para a lista: 0
+[1, 2, 3, 4, 5]
